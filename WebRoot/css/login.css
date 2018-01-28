@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.body{padding:0;margin:0;}
+a{text-decoration:none;}
+.main{font-family: "Microsoft YaHei";width: 860px;text-align: left;margin-right: auto;margin-left: auto;}
+fieldset{border:0;}
+p,input{padding:0;margin:0;}
+
+/*登录界面*/
+.top{margin: 50px 0px 60px 0px;}
+
+.mid{background: url(../image/indextop.gif) 10% 30% no-repeat transparent;width: 860px;height:320px;margin: 0px;float: right;}
+.panel {width: 360px;height: 320px;display: block;text-align: left;float: right;}
+.panel legend{font-family: "Microsoft YaHei";font-size: 25px;vertical-align: middle;}
+.user_area,.passwd_area{margin: 20px 0px 14px 0px;}
+.panel .user_area input,.panel .passwd_area input{color: rgb(183, 183, 185);border: 1px solid;height: 38px;padding-left:5px;font-size: 16px;width: 270px;vertical-align: middle;}
+#code_area{width: 350px;margin: 0px 0px 20px 0px;display:none;}
+#code_area img{height: 35px;width: 80px;margin: 0px 0px 0px 0px;vertical-align: middle;}
+.change_code{font-size: 16px;color: #B40605;vertical-align: middle;text-decoration: none;position: relative;left: -145px;}
+#code{width: 116px;height: 36px;padding: 0px 60px 0px 5px;font-family: "Microsoft YaHei";font-size: 16px;color: #B7B7B9;margin: 0px 0px 0px 0px;vertical-align: middle;}
+.remember_area{margin: 20px 0px 10px 0px;}
+.remember_area input{width:18px;height:18px;vertical-align: text-bottom;margin-right:5px;}
+.radio_area{margin-bottom:10px;}
+.radio_area label{padding-right:5px;color:#003163;}
+.radio_area input{margin-right:20px;}
+.submit_area input{float: left;cursor: pointer;width: 90px;width: 93px\9;_width: 93px;height: 40px;border-style: none;background-color: #003163;font-family: "Microsoft YaHei";font-size: 18px;color: #FFFFFF;}
+#msg{font-size: 16px;color: #B40605;height: 40px;line-height: 40px;}
+#msg img{vertical-align: text-bottom;margin-right:5px;}
+
+.bottom{clear:both;width: 720px;text-align: center;margin: 0 auto;font-size: 15px;color: #544C4A;}
+.bottom img{float:left;}
+.bottom .lx_info{width: 620px;padding: 62px 0px 0px 10px;text-align: left;float:left;}
+.bottom span {color: #6E5F5F;padding: 0px 8px 0px 8px;}
+.bottom span a{color: #B40605;}
